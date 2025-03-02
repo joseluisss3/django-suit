@@ -1,5 +1,5 @@
 from copy import copy
-from inspect import getargspec
+from inspect import getfullargspec
 from django import template
 from django.template.loader import get_template
 from django.utils.safestring import mark_safe
